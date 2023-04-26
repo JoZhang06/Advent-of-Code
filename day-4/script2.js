@@ -1,4 +1,4 @@
-fetch('input.txt')
+fetch('input04.txt')
   .then(response => response.text())
   .then(data => {
     const assignments = data.trim().split('\n').map(line => {
